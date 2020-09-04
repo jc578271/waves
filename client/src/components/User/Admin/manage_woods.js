@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import FormField from '../../utils/Form/formfield';
+import FormField from '../../utils/form/formField';
 import { update, generateData, isFormValid, resetFields } from '../../utils/form/formAction';
 
 import { connect } from 'react-redux';
