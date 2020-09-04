@@ -1,5 +1,5 @@
 import React from 'react';
-import UserLayout from '../../../Hoc/user';
+import UserLayout from '../../../Hoc/User';
 import ManageBrands from './manage_brands';
 import ManageWoods from './manage_woods';
 
