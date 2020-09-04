@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import UserLayout from '../../../hoc/user';
+import UserLayout from '../../../Hoc/user';
 
-import FormField from '../../utils/Form/formfield';
+import FormField from '../../utils/form/formfield';
 import { update, generateData, isFormValid, populateOptionFields, resetFields } from '../../utils/form/formAction';
-import FileUpload from '../../utils/Form/fileupload';
+import FileUpload from '../../utils/form/fileupload';
 
 import { connect } from 'react-redux';
 import { getBrands, getWoods, addProduct, clearProduct } from '../../../actions/product_action';
